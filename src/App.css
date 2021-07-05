@@ -31,6 +31,14 @@ header {
   color: #61dafb;
 }
 
+.table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table {
+  width: 100%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
