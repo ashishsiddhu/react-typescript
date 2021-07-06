@@ -1,5 +1,6 @@
 import Hello from './component/Hello';
 import Header from './component/Header';
+import Counter from './component/Counter';
 import './App.css';
 
 type Props = {
@@ -21,6 +22,7 @@ function App(props: Props) {
     <div className="App">
       <Header heading={"React + TypeScript Demo"}/>
       Hello {props.name}
+      <Counter />
       <Hello  
         str={"Ashish Siddhu"} 
         obj={
@@ -32,6 +34,7 @@ function App(props: Props) {
         arr={[1,2,3,4,5,6,7]}
         arrayOfObj= {themes}
         />
+        
     </div>
   );
 }
